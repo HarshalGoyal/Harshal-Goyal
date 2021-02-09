@@ -11,7 +11,7 @@ int main()
     scanf("%f",&d);
     printf("\n Enter the value of b:");
     scanf("%f",&b);
-    vol = (1.0/3.0) * ((h*d*b)+(d/b));
+    vol = (1.0/3.0) * ((h*d)+d);
     printf("\n Volume of Tromboloid is: %f \n",vol);
     return 0;
 }
